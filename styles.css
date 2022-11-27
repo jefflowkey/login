@@ -1,0 +1,91 @@
+* {
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(login.jpg);
+    background-position: center;
+    background-size: cover; 
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40ox 30px;
+    text-align: center;
+}
+
+h3 {
+    color: black; 
+    padding: 10px;
+    font-weight: 500; 
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .social-media-login {
+    display: grid;
+    padding: 10px;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+
+.container .social-media-login a {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3 );
+    transition: 0.4s;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container .social-media-login a i {
+    margin-right: 10px;
+}
+
+.container .social-media-login a.facebook {
+    background: #3c7dac;
+}
+
+.container .social-media-login a.twitter {
+    background: #1da1f2;
+}
+
+.container .social-media-login a.google {
+    background: #ea4335;
+}
+
+.container .social-media-login a.linkedin {
+    background: #0a66c2;
+}
+
+.container .social-media-login a.facebook:hover {
+    background: #0494fc;
+}
+
+.container .social-media-login a.twitter:hover {
+    background: #0059ff;
+}
+
+.container .social-media-login a.google:hover {
+    background: #ff1500;
+}
+
+.container .social-media-login a.linkedin:hover {
+    background: #0385ff;
+}
